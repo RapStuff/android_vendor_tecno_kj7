@@ -963,3 +963,55 @@ PRODUCT_PACKAGES += \
     vendor_lib64_arm_graphics-V1-ndk_so \
     vendor_lib64_hw_gatekeeper_trustonic_so \
     vendor_lib64_libwifi-hal-mtk_so
+
+# Newly injected files
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_test_limits_255.csv
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2280.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2300.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6789v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6833v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6853v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6855v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6873v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2280.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2300.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6879v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v02.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v03.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v04.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v05.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6895v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6983v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2280.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2300.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6789v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6853v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6855v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6873v00.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2280.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2300.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6879v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v02.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v03.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v04.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v05.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6895v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6983v01.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/novatek_ts_fw_144.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_144.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/novatek_ts_fw_jdi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_jdi.bin
+PRODUCT_COPY_FILES += vendor/tecno/KJ7/proprietary/vendor/firmware/novatek_ts_fw_tm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_tm.bin
+PRODUCT_PACKAGES += vendor.mediatek.hardware.camera.atms@1.0-impl
+PRODUCT_PACKAGES += fingerprint.silead.default
+PRODUCT_PACKAGES += sensors.elliptic
+PRODUCT_PACKAGES += sensors.mediatek.V2.0
+PRODUCT_PACKAGES += android.hardware.camera.provider@2.6-impl-mediatek
+PRODUCT_PACKAGES += vendor.mediatek.hardware.camera.atms@1.0-impl
+PRODUCT_PACKAGES += vendor.mediatek.hardware.camera.ccap@1.0-impl
+PRODUCT_PACKAGES += vendor.mediatek.hardware.camera.isphal@1.1-impl
