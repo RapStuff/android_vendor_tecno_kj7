@@ -492,7 +492,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtneclient",
-                "libTran_Log",
                 "libcutils",
                 "libc++",
                 "libc",
@@ -507,7 +506,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtneclient",
-                "libTran_Log",
                 "libcutils",
                 "libc++",
                 "libc",
@@ -664,7 +662,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtneclient",
-                "libTran_Log",
                 "libcutils",
                 "libc++",
                 "libc",
@@ -679,7 +676,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtneclient",
-                "libTran_Log",
                 "libcutils",
                 "libc++",
                 "libc",
@@ -11304,7 +11300,6 @@ cc_prebuilt_library_shared {
                 "libxml2",
                 "libdrm",
                 "libged",
-                "libTran_Log",
                 "libpq_prot",
                 "vendor.mediatek.hardware.pq@2.0",
                 "vendor.mediatek.hardware.pq@2.1",
@@ -12332,7 +12327,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "liblog",
                 "libc++",
                 "libc",
@@ -12624,7 +12618,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranASD.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libtflite_native_inference",
@@ -12657,7 +12650,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libmpbase",
                 "libamipengine",
                 "libTranPlatHW",
@@ -12686,7 +12678,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranArcFlashNew.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -12718,7 +12709,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libarcsoft_high_dynamic_range",
                 "liblog",
@@ -12748,7 +12738,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libarcsoft_low_light_hdr",
                 "liblog",
@@ -12776,7 +12765,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranArcNightHawk.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -12806,7 +12794,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranAutoColorLevel.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -12838,7 +12825,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libcam3_tranelapsedtime",
                 "libeffect_hal",
@@ -12870,7 +12856,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranDenoise.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libdenoise",
@@ -12902,7 +12887,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libcam3_tranelapsedtime",
                 "libTranExtImgThread",
                 "libTranFaceDetectCoordinate",
@@ -12976,7 +12960,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranEyeDetect.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13006,7 +12989,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranFaceDetectCoordinate.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13036,7 +13018,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranGenderDetect.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13067,7 +13048,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranHumanLight.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13101,7 +13081,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranITDFaceBeauty.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13133,7 +13112,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libNvLutEffect",
                 "liblog",
@@ -13161,7 +13139,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranPlatHW.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libhardware",
@@ -13196,7 +13173,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libportrait_repair_ppl3_ocl",
                 "liblog",
@@ -13226,7 +13202,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libstblur_capture_api",
                 "libaipe_bokeh",
@@ -13258,7 +13233,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libmpbase",
                 "libamipengine",
                 "libTranPlatHW",
@@ -13289,7 +13263,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTranSmartDetection.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libTranPlatHW",
@@ -13321,7 +13294,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "libTranPlatHW",
                 "libmorpho_HDSR",
                 "liblog",
@@ -13338,7 +13310,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libTran_Log",
+    name:
     owner: "tecno",
     strip: {
         none: true,
@@ -13376,7 +13348,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libTran_mtkPowerAPI.so",
             ],
             shared_libs: [
-                "libTran_Log",
                 "libutils",
                 "libcutils",
                 "libhardware",
@@ -13443,7 +13414,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "libTran_Log",
                 "liblog",
                 "libc++",
                 "libc",
@@ -14279,7 +14249,6 @@ cc_prebuilt_library_shared {
                 "libcamalgo.ispfeature",
                 "libcam3_transerverengine",
                 "libmtkcam_tuning_utils",
-                "libTran_Log",
                 "liblog",
                 "libmtkcam_ulog",
                 "libutils",
@@ -14652,7 +14621,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libtneclient",
-                "libTran_Log",
                 "libc++",
                 "libc",
                 "libm",
@@ -15428,7 +15396,6 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhwbinder",
                 "libged",
-                "libTran_Log",
                 "libcodec2_soft_common",
                 "libcutils",
                 "liblog",
@@ -15478,7 +15445,6 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhwbinder",
                 "libged",
-                "libTran_Log",
                 "libcodec2_soft_common",
                 "libcutils",
                 "liblog",
@@ -17071,7 +17037,6 @@ cc_prebuilt_library_shared {
                 "libcam.hal3a.v3.nvram",
                 "libcameracustom",
                 "libcam3_transerverengine",
-                "libTran_Log",
                 "libTranExtImgProc",
                 "libTranPlatHW",
                 "libTran_mtkPowerAPI",
@@ -17338,7 +17303,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libtneclient",
-                "libTran_Log",
                 "libmtkcam_device3_utils",
                 "liblog",
                 "libutils",
@@ -17841,7 +17805,6 @@ cc_prebuilt_library_shared {
                 "lib3a.af.core",
                 "lib3a.ae.core",
                 "libcam3_transerverengine",
-                "libTran_Log",
                 "libmediandk",
                 "libexif",
                 "libc++",
@@ -18685,7 +18648,6 @@ cc_prebuilt_library_shared {
                 "libfeature.stereo.provider",
                 "libaedv",
                 "libcam3_transerverengine",
-                "libTran_Log",
                 "libmtkcam_featurepolicy",
                 "libmtkcam_3rdparty",
                 "libmtkcam_3rdparty.core",
@@ -21707,7 +21669,6 @@ cc_prebuilt_binary {
                 "libtneclient",
                 "vendor.mediatek.hardware.mtkpower@1.0",
                 "android.hardware.biometrics.fingerprint@2.1",
-                "libTran_Log",
                 "libc++",
                 "libc",
                 "libm",
@@ -22156,7 +22117,6 @@ cc_prebuilt_binary {
                 "android.hardware.camera.provider@2.5",
                 "android.hardware.camera.provider@2.6",
                 "libtneclient",
-                "libTran_Log",
                 "libcam3_tranwatchdogmonitor",
                 "vendor.mediatek.hardware.camera.frhandler@1.0",
                 "vendor.mediatek.hardware.camera.postproc@1.0",
@@ -22538,7 +22498,6 @@ cc_prebuilt_binary {
             shared_libs: [
                 "liblog",
                 "libtneclient",
-                "libTran_Log",
                 "libcutils",
                 "libc++",
                 "libc",
