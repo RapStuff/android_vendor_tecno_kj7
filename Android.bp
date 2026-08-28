@@ -480,6 +480,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMcClient",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13314,6 +13315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTran_Log",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21657,6 +21659,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.biometrics.fingerprint@2.1-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
