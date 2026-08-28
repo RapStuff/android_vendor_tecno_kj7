@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),KJ7)
+ifeq ($(TARGET_DEVICE),kj7)
 
 $(call add-radio-file-sha1-checked,radio/gz.img,cd7cb8db66a47e88e8ffb140e374ff65bc6d9273)
 $(call add-radio-file-sha1-checked,radio/lk.img,48b6d11e423c525cb704a528453377ce0f674703)
