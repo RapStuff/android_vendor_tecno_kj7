@@ -16,6 +16,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "AVCSecureVdecCA",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -65,6 +66,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "AVCSecureVencCA",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -112,6 +114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "VP9SecureVdecCA",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -161,6 +164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fake_serial_yuv_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -198,6 +202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gc32e1_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -235,6 +240,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hi3231q_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -272,6 +278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hi5022q_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -309,6 +316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "kmsetkey.trustonic",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -351,6 +359,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDefaultFpsActor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -392,6 +401,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFrameRecord",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -433,6 +443,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libJpgEncPipe",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -522,6 +533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxCore",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -569,6 +581,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libNoFpsActor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -610,6 +623,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -651,6 +665,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTEECommon",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -692,6 +707,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranfacFunction",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -745,6 +761,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranfacOverlay",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -786,6 +803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_cust",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -827,6 +845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_key",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -862,6 +881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -901,6 +921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaalservice",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -958,6 +979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadpcmdec_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1001,6 +1023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaedv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1048,6 +1071,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapmonitor_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1093,6 +1117,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libappgamepq",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1128,6 +1153,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapu_mdw",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1171,6 +1197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1212,6 +1239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys_edma",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1257,6 +1285,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1300,6 +1329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn_ndk.mtk.vndk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1337,6 +1367,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1c_core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1376,6 +1407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1c_mapi",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1417,6 +1449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1c_mdmi",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1458,6 +1491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_mediatek",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1505,6 +1539,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_hw_test",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1544,6 +1579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1585,6 +1621,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk_pure",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1626,6 +1663,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_relayer",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1667,6 +1705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetoothem_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1704,6 +1743,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1743,6 +1783,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbwc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1784,6 +1825,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor.hwintegration",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1823,6 +1865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_transerverengine",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1870,6 +1913,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera2ndk_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1937,6 +1981,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapctrl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -1976,6 +2021,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcares_naptr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2015,6 +2061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcarrierconfig",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2052,6 +2099,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libccci_util",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2089,6 +2137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2126,6 +2175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl_ndk.mtk.vndk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2161,6 +2211,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libconnfem",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2200,6 +2251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcrypto-mdapp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2235,6 +2287,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcs_cs35l45_intf",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2286,6 +2339,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcurl-md",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2327,6 +2381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcurl_xcap_md",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2372,6 +2427,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcustom_nvram",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2407,6 +2463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdecrypt",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2452,6 +2509,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdeviceauthen",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2499,6 +2557,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpframework",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2560,6 +2619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdre",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2595,6 +2655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdts-eagle-shared",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2630,6 +2691,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdtsdsec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2669,6 +2731,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdynamiclog",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2708,6 +2771,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfile_op",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2749,6 +2813,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libformatter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2800,6 +2865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfp_ext_svc2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2851,6 +2917,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfsmaudio",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2886,6 +2953,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgamehdr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2923,6 +2991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libged",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -2970,6 +3039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_ca",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3011,6 +3081,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpu_aux",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3084,6 +3155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpud",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3149,6 +3221,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_extra",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3202,6 +3275,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_metadata",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3249,6 +3323,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloctypes_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3298,6 +3373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_gp_client",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3337,6 +3413,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_uree",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3413,6 +3490,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwm",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3454,6 +3532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhyperion_hap_ca",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3499,6 +3578,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libicd_decoder",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3540,6 +3620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsg_log",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3577,6 +3658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3620,6 +3702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_ulit",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3661,6 +3744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipsec_ims_shr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3702,6 +3786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha-oal_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3739,6 +3824,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3778,6 +3864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeystore-wifi-hidl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3823,6 +3910,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libladder",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3864,6 +3952,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminiui",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3955,6 +4044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmml",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -3996,6 +4086,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmprofile",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4035,6 +4126,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmnetlink_v104",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4070,6 +4162,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmp3dec_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4113,6 +4206,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtcloader",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4152,6 +4246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_bsg",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4187,6 +4282,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_drvb",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4228,6 +4324,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkares",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4265,6 +4362,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.eventcallback",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4310,6 +4408,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_debugutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4353,6 +4452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_stdutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4402,6 +4502,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_ulog",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4449,6 +4550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4486,6 +4588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkhardware_legacy",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4523,6 +4626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4562,6 +4666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkperf_client_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4609,6 +4714,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkproperty",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4646,6 +4752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrillog",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4683,6 +4790,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkspparser",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4730,6 +4838,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtksysutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4771,6 +4880,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_config_data",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4804,6 +4914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuroeara",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4847,6 +4958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuropilot_hal_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -4882,6 +4994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnir_neon_driver",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5000,6 +5113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnvram_sec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5039,6 +5153,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnwk_opt_halwrap_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5090,6 +5205,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5127,6 +5243,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperfctl_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5172,6 +5289,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpixelflinger",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5273,6 +5391,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpnpmgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5332,6 +5451,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpower_timer",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5373,6 +5493,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpowerhal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5444,6 +5565,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpowerhalwrap_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5487,6 +5609,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_cust_base",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5530,6 +5653,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_prot",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5571,6 +5695,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqframework",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5612,6 +5737,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqparamparser",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5667,6 +5793,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqpconfig",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5740,6 +5867,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libreference-ril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5785,6 +5913,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librgbwlightsensor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5836,6 +5965,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5887,6 +6017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsimlock",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5928,6 +6059,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsimmelock",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -5969,6 +6101,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspeechparser_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6016,6 +6149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssl-mdapp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6051,6 +6185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstfaceunlockppl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6164,6 +6299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtlcWidevineModularDrm",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6213,6 +6349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtneclient",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6288,6 +6425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranradionet_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6329,6 +6467,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranslator_mapi_v3.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6378,6 +6517,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranslator_mdmi_v2.8.2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6427,6 +6567,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranslator_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6514,6 +6655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liburee_meta_drmkeyinstall",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6601,6 +6743,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libutinterface_md",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6690,6 +6833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodecdrv_header_stub",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6727,6 +6871,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libverno",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6760,6 +6905,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpu5",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6801,6 +6947,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwapi",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6842,6 +6989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwo",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6879,6 +7027,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6942,6 +7091,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "meta_wifi_data",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -6975,6 +7125,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcfake_serial_yuv_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7012,6 +7163,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcgc32e1_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7049,6 +7201,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblchi3231q_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7086,6 +7239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblchi5022q_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7123,6 +7277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcs5kjn1_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7160,6 +7315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "s5kjn1_mipi_raw_tuning",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7197,6 +7353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.fpsensor.hardware.fpsensorhidlsvc@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7240,6 +7397,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apmonitor@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7283,6 +7441,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio@6.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7334,6 +7493,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio@7.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7385,6 +7545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7428,6 +7589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7473,6 +7635,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7516,6 +7679,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7561,6 +7725,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mdmonitor@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7604,6 +7769,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7647,6 +7813,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7692,6 +7859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7735,6 +7903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7780,6 +7949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7827,6 +7997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.3",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7876,6 +8047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.4",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7927,6 +8099,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.5",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -7980,6 +8153,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8035,6 +8209,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.netdagent@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8078,6 +8253,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8121,6 +8297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8166,6 +8343,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nwk_opt@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8209,6 +8387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8254,6 +8433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8303,6 +8483,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8346,6 +8527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8391,6 +8573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.10",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8454,6 +8637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.11",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8519,6 +8703,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.12",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8586,6 +8771,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.13",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8655,6 +8841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.14",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8726,6 +8913,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8799,6 +8987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8846,6 +9035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.3",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8895,6 +9085,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.4",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8946,6 +9137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.5",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -8999,6 +9191,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.6",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9054,6 +9247,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.7",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9111,6 +9305,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.8",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9170,6 +9365,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.9",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9231,6 +9427,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.trancam.trancamserver@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9274,6 +9471,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.mt6768",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9320,6 +9518,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.mt6768",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9379,6 +9578,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxAdpcmDec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9408,6 +9608,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxAlacDec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9435,6 +9636,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxApeDec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9464,6 +9666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxGsmDec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9491,6 +9694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkOmxMp3Dec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9519,6 +9723,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkSpeechEnh",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9543,6 +9748,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_iir",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9569,6 +9775,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_speech_enh",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9598,6 +9805,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_param_parser-vnd",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9628,6 +9836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilter_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9656,6 +9865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilterc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9685,6 +9895,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentengine_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9716,6 +9927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentenginec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9746,6 +9958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocustparam_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9774,6 +9987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiodcrflt_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9802,6 +10016,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiofmtconv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9831,6 +10046,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioloudc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9860,6 +10076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioprimarydevicehalifclient",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9895,6 +10112,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiotoolkit_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9922,6 +10140,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaurisysdemo",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9949,6 +10168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbessound_hd_mtk_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -9977,6 +10197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libblisrc32_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10005,6 +10226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvsd_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10033,6 +10255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfgauge_gm30",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10061,6 +10284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264dec_customize",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10195,6 +10419,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsbc_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10223,6 +10448,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtklimiter_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10251,6 +10477,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkshifter_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10279,6 +10506,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnxp_extamp_intf",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10311,6 +10539,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcs_interface",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10340,6 +10569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcs_volte_core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10368,6 +10598,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librt_extamp_intf",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10426,6 +10657,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthermalalgo",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10453,6 +10685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_utility_v3a",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10483,6 +10716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodecdrv_v3a",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10513,6 +10747,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvolte_core_shr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10540,6 +10775,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvolte_xdmc_shr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10647,6 +10883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpudv3a_vcodec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10677,6 +10914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvt_custom",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10701,6 +10939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.rcs@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10729,6 +10968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.power-service-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10762,6 +11002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10787,6 +11028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio_common-aidl-cpp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10813,6 +11055,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10859,6 +11102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_meow",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10889,6 +11133,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_data",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10913,6 +11158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_gift",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10946,6 +11192,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_qt",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -10976,6 +11223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_trace",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11006,6 +11254,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fake_serial_yuv_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11031,6 +11280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gc32e1_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11056,6 +11306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hi3231q_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11081,6 +11332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hi5022q_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11106,6 +11358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss-impl-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11138,6 +11391,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@2.X-subhal-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11175,6 +11429,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fpsensor_fingerprint.default",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11235,6 +11490,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gps.default",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11334,6 +11590,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMcGatekeeper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11362,6 +11619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSoftGatekeeper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11393,6 +11651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.mt6768",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11429,6 +11688,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "thermal_hal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11457,6 +11717,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11493,6 +11754,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.0-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11540,6 +11802,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.lomoeffect@1.0-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11577,6 +11840,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11609,6 +11873,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11654,6 +11919,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkpower@1.2-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11687,6 +11953,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11723,6 +11990,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11787,6 +12055,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11818,6 +12087,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lbs_hidl_service-impl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11851,6 +12121,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae.core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11880,6 +12151,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11908,6 +12180,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11937,6 +12210,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11965,6 +12239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.awb.core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11995,6 +12270,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.awb",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12023,6 +12299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ccudrv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12053,6 +12330,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ccuif",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12088,6 +12366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.flash",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12113,6 +12392,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.gma",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12141,6 +12421,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.lce",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12169,6 +12450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.log",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12196,6 +12478,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDR",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12222,6 +12505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFy-3A-Core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12246,6 +12530,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFy-3A-Param-gc32e1_17201856",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12270,6 +12555,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFy-3A-Param-hi5022q_17201859",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12294,6 +12580,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGCore4Cell",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12346,6 +12633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libNvLutEffect",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12372,6 +12660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSQLiteModule_VER_ALL",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12396,6 +12685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibrary",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12420,6 +12710,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12450,6 +12741,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibrary",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12474,6 +12766,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12504,6 +12797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibrary",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12528,6 +12822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12558,6 +12853,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibrary",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12582,6 +12878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibraryWrapper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12612,6 +12909,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranASD",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12642,6 +12940,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcFilter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12672,6 +12971,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcFlashNew",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12701,6 +13001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcHDR",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12730,6 +13031,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcLLHDR",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12759,6 +13061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcNightHawk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12788,6 +13091,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranAutoColorLevel",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12817,6 +13121,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranBefMakeup",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12850,6 +13155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranDenoise",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12879,6 +13185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranExtImgProc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12928,6 +13235,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranExtImgThread",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12954,6 +13262,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranEyeDetect",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12983,6 +13292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranFaceDetectCoordinate",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13012,6 +13322,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranGenderDetect",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13042,6 +13353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranHumanLight",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13075,6 +13387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranITDFaceBeauty",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13104,6 +13417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranMSFilter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13133,6 +13447,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranPlatHW",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13165,6 +13480,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSTPRRepair",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13194,6 +13510,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSTSingleBlur",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13225,6 +13542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSlimBody",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13257,6 +13575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSmartDetection",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13286,6 +13605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSuperResolution",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13343,6 +13663,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTran_mtkPowerAPI",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13377,6 +13698,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTransSched",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13407,6 +13729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWaterMarkProc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13434,6 +13757,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_bsscore",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13487,6 +13811,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaacvibrator",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13514,6 +13839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libabfadp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13555,6 +13881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13599,6 +13926,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaipe_bokeh",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13623,6 +13951,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libamipengine",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13647,6 +13976,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13672,6 +14002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr_adapter_gc32e1_17201856_front_g85",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13697,6 +14028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr_adapter_hi3231q_17201884_front_g85",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13722,6 +14054,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr_adapter_hi5022q_17201859_back_g85",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13747,6 +14080,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr_adapter_s5kjn1_17201858_back_g85",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13772,6 +14106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13796,6 +14131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_848",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13820,6 +14156,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13845,6 +14182,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13870,6 +14208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_night_hawk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13895,6 +14234,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_torch_portrait_night",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13920,6 +14260,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13952,6 +14293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc++_shared",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13974,6 +14316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalculatesharpness",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -13999,6 +14342,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.chdr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14029,6 +14373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.feature_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14072,6 +14417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.cctsvr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14114,6 +14460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.log",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14141,6 +14488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.dng",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14173,6 +14521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.lsctbl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14202,6 +14551,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.nvram",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14235,6 +14585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14309,6 +14660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halisp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14344,6 +14696,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14379,6 +14732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.iopipe",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14424,6 +14778,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.lcs",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14455,6 +14810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.pdtblgen",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14489,6 +14845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.utils.sensorprovider",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14527,6 +14884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.vhdr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14561,6 +14919,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_tranelapsedtime",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14587,6 +14946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_tranpriorityctrl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14612,6 +14972,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_tranwatchdogmonitor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14640,6 +15001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam_tranvipscheduler",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14669,6 +15031,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.3dnr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14696,6 +15059,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.abf",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14723,6 +15087,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.dngop",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14750,6 +15115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.eis",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14778,6 +15144,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fdft",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14803,6 +15170,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.flicker",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14829,6 +15197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fsc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14854,6 +15223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.gyro",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14881,6 +15251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.ispfeature",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14914,6 +15285,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lmv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14942,6 +15314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lsc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14970,6 +15343,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.mfnr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -14997,6 +15371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.nr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15024,6 +15399,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15052,6 +15428,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15081,6 +15458,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.utility",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15108,6 +15486,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.warp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15141,6 +15520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_isp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15172,6 +15552,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_tuning_mgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15205,6 +15586,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_twin",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15234,6 +15616,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.plugin",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15267,6 +15650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15318,6 +15702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcharon-ss",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15345,6 +15730,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_c2store",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15381,6 +15767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_vdec",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15430,6 +15817,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_venc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15477,6 +15865,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_qt_plugin",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15510,6 +15899,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_rs_plugin",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15543,6 +15933,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcolorlevel",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15568,6 +15959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcomposer_ext",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15597,6 +15989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdenoise",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15651,6 +16044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffecthal.base",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15683,6 +16077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeyedetector",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15708,6 +16103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfacedetector",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15733,6 +16129,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfacesattribute",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15758,6 +16155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.face",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15798,6 +16196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.stereo.provider",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15836,6 +16235,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_3dnr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15872,6 +16272,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_fsc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15906,6 +16307,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_lmv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15946,6 +16348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_rss",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -15977,6 +16380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeatureiodrv_mem",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16010,6 +16414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfft_vendor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16034,6 +16439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libforkexecwrap",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16060,6 +16466,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_factory_test",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16090,6 +16497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16119,6 +16527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgoodixhwfingerprint",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16152,6 +16561,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libheichal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16182,6 +16592,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwc2on1adapter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16210,6 +16621,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwc2onfbadapter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16236,6 +16648,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhydra",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16260,6 +16673,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libifcutils_mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16286,6 +16700,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16315,6 +16730,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_drv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16351,6 +16767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_pipe",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16384,6 +16801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libitdfacebeauty",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16411,6 +16829,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeystore-engine-wifi-hidl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16442,6 +16861,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkmsetkey",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16471,6 +16891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libksensor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16496,6 +16917,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblpcnr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16520,6 +16942,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfllcore",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16560,6 +16983,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmipc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16586,6 +17010,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmagent",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16616,6 +17041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmnl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16641,6 +17067,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmorpho_HDSR",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16667,6 +17094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16688,6 +17116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsnr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16712,6 +17141,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk-fusion-ril-prop-vsim",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16746,6 +17176,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk-ril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16791,6 +17222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.capture",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16856,6 +17288,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.streaming",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16918,6 +17351,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.vsdof_util",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16955,6 +17389,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.logicalmodule",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -16988,6 +17423,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.core",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17019,6 +17455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.customer",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17068,6 +17505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.mtk",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17121,6 +17559,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17167,6 +17606,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.thread",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17195,6 +17635,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_convertor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17222,6 +17663,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_provider",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17256,6 +17698,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_app",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17297,6 +17740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17342,6 +17786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17387,6 +17832,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidlutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17434,6 +17880,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17474,6 +17921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_devicesessionpolicy",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17509,6 +17957,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_diputils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17535,6 +17984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_exif",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17566,6 +18016,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fdvt",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17594,6 +18045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featurepolicy",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17640,6 +18092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featureutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17677,6 +18130,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fwkutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17705,6 +18159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_grallocutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17745,6 +18200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwnode",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17826,6 +18282,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17869,6 +18326,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imem",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17901,6 +18359,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imgbuf",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17940,6 +18399,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metadata",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -17973,6 +18433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metastore",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18008,6 +18469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_aaa",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18042,6 +18504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_custom",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18070,6 +18533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_drv",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18100,6 +18564,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18129,6 +18594,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulehelper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18155,6 +18621,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18195,6 +18662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline_fbm",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18228,6 +18696,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18268,6 +18737,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_adapter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18304,6 +18774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_capture",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18341,6 +18812,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_isp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18385,6 +18857,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_session",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18436,6 +18909,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18484,6 +18958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_zsl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18523,6 +18998,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-aov",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18557,6 +19033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-security",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18592,6 +19069,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-smvr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18627,6 +19105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18670,6 +19149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy_factory",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18707,6 +19187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_prerelease",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18740,6 +19221,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_rsc",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18767,6 +19249,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_scenariorecorder",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18797,6 +19280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_streamutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18831,6 +19315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_synchelper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18867,6 +19352,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_sysutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18904,6 +19390,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_tuning_utils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18937,6 +19424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfig",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18962,6 +19450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfigutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -18987,6 +19476,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkisp_metadata",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19014,6 +19504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkmipc-ril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19058,6 +19549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetcap",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19084,6 +19576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrilutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19115,6 +19608,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtktinyxml",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19139,6 +19633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkutils",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19167,6 +19662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_adapter",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19198,6 +19694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19227,6 +19724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libportrait_repair_ppl3_ocl",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19251,6 +19749,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libratconfig",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19279,6 +19778,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaic_wrapper",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19303,6 +19803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaiclib",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19328,6 +19829,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilfusion",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19375,6 +19877,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librmsclib1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19426,6 +19929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsegmentionPre",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19453,6 +19957,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_custom",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19478,6 +19983,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsimaka",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19501,6 +20007,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libskhynix_q2b_5022Q_shared",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19525,6 +20032,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsmartdetector",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19550,6 +20058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libst_mobile",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19576,6 +20085,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstblur_capture_api",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19602,6 +20112,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstereoinfoaccessor_vsdof",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19632,6 +20143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstorage_otp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19659,6 +20171,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstrongswan",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19686,6 +20199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtf_asd_lib",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19712,6 +20226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_gainference",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19736,6 +20251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_inference",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19760,6 +20276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_seginference",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19786,6 +20303,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinycompress",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19812,6 +20330,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrancamJsonConvertor",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19838,6 +20357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrancam_filelockmgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19894,6 +20414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranssion_forkexecwrap",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19920,6 +20441,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrm",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19945,6 +20467,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvia-ril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -19975,6 +20498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libviamipc-ril",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20005,6 +20529,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20034,6 +20559,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifitest",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20061,6 +20587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwpa_client",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20087,6 +20614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwpfa",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20116,6 +20644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20148,6 +20677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_streaminfo_plugin-p1stt",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20179,6 +20709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "nwk_opt_imp",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20210,6 +20741,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcfake_serial_yuv_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20235,6 +20767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcgc32e1_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20260,6 +20793,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblchi3231q_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20285,6 +20819,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblchi5022q_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20310,6 +20845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcs5kjn1_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20335,6 +20871,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "s5kjn1_mipi_raw_IdxMgr",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20360,6 +20897,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20385,6 +20923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.goodix.hardware.biometrics.fingerprint@2.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20413,6 +20952,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.atci@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20441,6 +20981,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20469,6 +21010,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.frhandler@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20502,6 +21044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20532,6 +21075,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20563,6 +21107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.lomoeffect@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20595,6 +21140,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.postproc@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20623,6 +21169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.security@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20652,6 +21199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.clientapi@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20680,6 +21228,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.composer_ext@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20708,6 +21257,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20736,6 +21286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20765,6 +21316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc@1.2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20795,6 +21347,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20823,6 +21376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20852,6 +21406,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode@1.2",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20882,6 +21437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode@1.3",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20913,6 +21469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.lbs@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20941,6 +21498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkradioex@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -20975,6 +21533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkradioex@3.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21009,6 +21568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.paytrigger@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21037,6 +21597,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.security.deviceauthen@2.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21065,6 +21626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.security.hap@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21093,6 +21655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.security.trancriticalparavfy@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21121,6 +21684,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.tranfacaidl-V1-ndk_platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21146,6 +21710,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.tranlog@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21174,6 +21739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.tranlogconfig@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21202,6 +21768,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.trannet-V1-ndk_platform",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21227,6 +21794,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.transtorage.storage@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21255,6 +21823,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.wifi.hostapd@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21288,6 +21857,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.performance.sched@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21316,6 +21886,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee.tui@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21344,6 +21915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee@1.0",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21372,6 +21944,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee@1.1",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21401,6 +21974,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiotoolkit",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -21516,6 +22090,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "ccci_mdinit",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21547,6 +22122,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ccci_rpcd",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21576,6 +22152,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "fuelgauged",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -21603,6 +22180,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "fuelgauged_nvram",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21631,6 +22209,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "gsm0710muxd",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -21693,6 +22272,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21727,6 +22307,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm@1.4-service.widevine",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21763,6 +22344,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gnss-service.mediatek",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21803,6 +22385,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.allocator@4.0-service-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21832,6 +22415,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.composer@2.1-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21870,6 +22454,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.keymaster@4.1-service.trustonic",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21907,6 +22492,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.lights-service.mediatek",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -21989,6 +22575,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.secure_element@1.2-service-mediatek",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22028,6 +22615,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.thermal@2.0-service.mtk",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22061,6 +22649,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.wifi@1.0-service-lazy",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22152,6 +22741,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mtkfusionrild",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22186,6 +22776,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tetheroffloadservice",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22226,6 +22817,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22259,6 +22851,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mms@1.6-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22290,6 +22883,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.nvram@1.1-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22324,6 +22918,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.pq@2.2-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22355,6 +22950,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.trustonic.tee@1.1-service",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22391,6 +22987,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vtservice_hidl",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22425,6 +23022,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ipsec_mon",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22453,6 +23051,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "kmsetkey_ca.trustonic",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22496,6 +23095,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "mcDriverDaemon",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22523,6 +23123,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mnld",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22564,6 +23165,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mtk_agpsd",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22595,6 +23197,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "netdagent",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22626,6 +23229,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "nvram_daemon",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22656,6 +23260,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rcs_volte_stack",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22687,6 +23292,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermal",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22714,6 +23320,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermalloadalgod",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22740,6 +23347,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "v3avpud",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22770,6 +23378,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_clientapi_ua",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22805,6 +23414,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_imcb",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22833,6 +23443,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_imsm_93",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22859,6 +23470,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_md_status",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22885,6 +23497,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_rcs_ua",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22922,6 +23535,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_ua",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm: {
@@ -22950,6 +23564,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wlan_assistant",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -22977,6 +23592,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wmt_launcher",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
@@ -23003,6 +23619,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wmt_loader",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
