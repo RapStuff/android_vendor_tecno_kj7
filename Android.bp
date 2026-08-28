@@ -13310,7 +13310,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name:
+    name: "libTran_Log",
     owner: "tecno",
     strip: {
         none: true,
