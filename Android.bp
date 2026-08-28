@@ -11201,6 +11201,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gf_fingerprint.default",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -11261,6 +11262,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.mt6768",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -12315,6 +12317,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libImageEval",
+    check_elf_files: false,
     owner: "tecno",
     strip: {
         none: true,
@@ -22095,6 +22098,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "camerahalserver",
+    check_elf_files: false,
     owner: "tecno",
     target: {
         android_arm64: {
